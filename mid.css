@@ -1,0 +1,138 @@
+@media only screen and (min-width: 599px) and (max-width: 918px) {
+	body {
+		width: 1000px;
+		padding: auto 20px;
+	}
+
+	#header {
+		width: 1000px;
+		/* height: 100%; */
+		height: 700px;
+		/*  */
+	}
+
+	#header .car_center_text {
+		position: absolute;
+		top: 0;
+		padding: 30px;
+		padding-top: 40%;
+	}
+
+	#header .car_center_text h1 {
+		font-size: 2em;
+	}
+
+	#header .car_center_text p {
+		font-size: 1.5rem;
+	}
+
+	#section_3 ._two_div_black_and_orange {
+		margin: 0;
+	}
+
+	#header .car_center_text .u-svg-content {
+		margin: 0;
+		width: 20px;
+	}
+
+	#section_3 {
+		._two_div_black_and_orange ._black {
+			h1 {
+				font-size: 1.5rem;
+			}
+
+			p {
+				font-size: 1rem;
+			}
+		}
+
+		._two_div_black_and_orange .orange {
+			/* padding: 50px; */
+			line-height: 1.2;
+
+			h4 {
+				font-size: 1.5rem;
+			}
+
+			ol {
+				font-size: 1rem
+			}
+		}
+	}
+
+	.section_5_border-redus {
+		display: flex;
+		gap: 100px;
+		/* padding: auto 40px; */
+		margin: auto 20px;
+	}
+
+	#section_6_faq {
+		h1 {
+			font-size: 2rem;
+		}
+	}
+
+	#section_6_faq .question {
+		font-size: 1.1rem;
+	}
+
+	#section_6_faq .answer {
+		font-size: 1rem;
+	}
+
+	.position_flex_video_txt {
+		display: block;
+	}
+
+	#section_9 {
+		/* padding: ; */
+		/* display: flex; */
+		/* flex-direction: column; */
+		text-align: center;
+		width: 200px;
+		/* justify-content: center; */
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+	body {
+		width: 1000px;
+		padding: auto 20px;
+	}
+
+	#section_2_contact .section_2_contact_flex,
+	.section_4_three_div,
+	.section_5_border-redus,
+	.position_flex_video_txt,
+	#section_9 {
+		display: block;
+		text-align: -webkit-center;
+	}
+
+	#section_2_contact .section_2_cion-flex i {
+		font-size: 3rem;
+		width: 25%;
+		height: auto;
+		background: #f17c0e;
+
+		h1 {
+			font-size: 50px;
+		}
+	}
+
+	#section_3 ._two_div_black_and_orange {
+		display: block;
+	}
+
+	._two_div_black_and_orange .orange {
+		/* padding: 0; */
+		height: auto;
+	}
+
+	#section_4 .section_4_three_div .images img {
+		width: 100%;
+		height: 100%;
+	}
+}
